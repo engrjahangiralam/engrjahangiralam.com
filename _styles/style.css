@@ -1,0 +1,51 @@
+body{
+    background: linear-gradient(to right,#081d2c,#112e42);
+}
+
+/* Logo */
+.logo {
+    color: #f1f5f9;
+    font-size: 1.7rem;
+    font-weight: 700;
+}
+.logo2 {
+    color: #0fbbff;
+    font-size: 1.7rem;
+    font-weight: 700;
+}
+.logo2:hover {
+    color: #f1f5f9;
+}
+.logo:hover {
+    color:  #0fbbff;
+}
+/* Logo */
+
+/* Hero Section*/
+#hero{
+    background-color: #006da011;
+    color:white;
+}
+
+.heroImageBox{
+    height:20vw;
+    width:20vw;
+    border:2px solid #fff;
+    border-radius: 50%;
+    box-shadow: 0 0 15px 5px #0fbbff;
+    position: relative;
+    overflow: hidden;
+}
+.heroImageBox img{
+    position: absolute;
+    width:100%;
+    object-fit: cover;
+    left:-5px;
+    top:5px;
+}
+/* Hero Section*/
+
+#about{
+    background-color: transparent;
+    color:white;
+}
